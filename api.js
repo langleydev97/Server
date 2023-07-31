@@ -32,7 +32,7 @@ router.get("/getTotal/:email", getTotal);
 router.get("/getCover/:email", getCover);
 router.get("/getTrackList/:email", getTrackList);
 router.get("/", (req, res) => {
-  res.json({ message: "Groove Burner Server" });
+  res.json({ message: "Welcome to theGroove Burner Server" });
 });
 
 router.post("/getSongs", getSongs);
